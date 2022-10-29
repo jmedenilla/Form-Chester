@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>My Form</title>
+  </head>
+  <body>
+    <div class="background">
+      <div class="colored-background"></div>
+      <!-- Overall Content/Main Container -->
+      <div class="main-container">
+        <!-- Form Container -->
+        <div class="form-container">
+          <div class="form-container__bg-color"></div>
+          <div class="form-parent">
+            <!-- Header Form -->
+            <div>
+              <h1 class="main-text__form">Sign Up</h1>
+              <h3 class="sub-text__form">
+                Already have an account? <span><a href="#">Login</a></span>
+              </h3>
+            </div>
+            <!-- Input Form -->
+            <form class="form" action="">
+              <div class="sub-form-container">
+                <div class="single-form-container">
+                  <label class="label" for="">First Name</label>
+                  <input class="input" type="text" placeholder="First Name" />
+                </div>
+                <div class="single-form-container">
+                  <label class="label" for="">Last Name</label>
+                  <input class="input" type="text" placeholder="Last Name" />
+                </div>
+                <div class="single-form-container">
+                  <label class="label" for="">Email</label>
+                  <input class="input" type="email" placeholder="Email" />
+                </div>
+                <div class="single-form-container">
+                  <label class="label" for="">Phone Number</label>
+                  <input
+                    class="input"
+                    type="number"
+                    placeholder="Phone Number"
+                  />
+                </div>
+                <div class="single-form-container">
+                  <label class="label" for="">Course</label>
+                  <input class="input" type="text" placeholder="Course" />
+                </div>
+                <div class="single-form-container">
+                  <label class="label" for="">Section</label>
+                  <input class="input" type="text" placeholder="Section" />
+                </div>
+              </div>
+              <div class="gender">
+                <div class="">
+                  <input type="radio" value="male" name="gender" />
+                  <label for="">Male</label>
+                </div>
+                <div>
+                  <input type="radio" value="female" name="gender" />
+                  <label for="">Female</label>
+                </div>
+                <div>
+                  <input type="radio" value="secret" name="gender" />
+                  <label for="">Prefer not to say</label>
+                </div>
+              </div>
+              <button class="button">Signup</button>
+            </form>
+          </div>
+        </div>
+        <!-- Image Container -->
+        <div class="image-container">
+          <img class="image" src="images/Digital Marketing.png" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
